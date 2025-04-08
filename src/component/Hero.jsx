@@ -50,7 +50,7 @@ function Hero({ darkMode, scrollTo }) {
 
           <div className="flex gap-4 justify-center flex-wrap">
             <a
-              href="https://drive.google.com/your-resume-link-here"
+              href="https://drive.google.com/file/d/13KRyR_Y9Lx3mDfVz2TcfCFX858IcYsRu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

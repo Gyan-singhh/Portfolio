@@ -117,7 +117,7 @@ function Skills({ darkMode }) {
                 />
               </div>
               <span
-                className={`text-xs text-center ${
+                className={`hidden text-xs text-center sm:block ${
                   darkMode ? "text-gray-400" : "text-gray-600"
                 }`}
               >

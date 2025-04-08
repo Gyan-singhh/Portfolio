@@ -31,7 +31,7 @@ function Projects({ darkMode }) {
         "Full-stack vacation rental platform with search, booking, and review features.",
       tags: ["React", "Express", "Mapbox", "Cloudinary", "Tailwind CSS"],
       codeUrl: "https://github.com/Gyan-singhh/Airbnb-clone-react",
-      liveUrl: "https://www.youtube.com/watch?v=-oI0GaEfRDQ",
+      liveUrl: "https://www.youtube.com/watch?v=9WVms-80mws&t=30s",
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ function Projects({ darkMode }) {
         "Mobile-first banking application with transaction history and money transfer.",
       tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
       codeUrl: "https://github.com/Gyan-singhh/Banking-web-app",
-      liveUrl: "https://www.youtube.com/watch?v=9WVms-80mws&t=30s",
+      liveUrl: "https://www.youtube.com/watch?v=-oI0GaEfRDQ",
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ function Projects({ darkMode }) {
         "A sleek and responsive personal portfolio website showcasing projects, skills, and contact information.",
       tags: ["React", "Tailwind CSS", "Vite", "Formspree"],
       codeUrl: "https://github.com/Gyan-singhh/Portfolio",
-      liveUrl: "/",
+      liveUrl: "https://portfolio-gyan-singhs-projects-13f829cb.vercel.app",
     },
   ];
 
