@@ -1,14 +1,4 @@
 import React from "react";
-import { CgCode } from "react-icons/cg";
-import {
-  FaLaptopCode,
-  FaUser,
-  FaUserAstronaut,
-  FaUserTie,
-} from "react-icons/fa";
-import { FiUser } from "react-icons/fi";
-import { GiComputerFan } from "react-icons/gi";
-import { RiComputerLine } from "react-icons/ri";
 
 function Hero({ darkMode, scrollTo }) {
   return (
@@ -22,9 +12,24 @@ function Hero({ darkMode, scrollTo }) {
     >
       <div className="max-w-6xl mx-auto text-center">
         <div>
-          <div className="mb-8 flex justify-center">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center shadow-xl hover:rotate-2 hover:scale-105 transition-transform">
-              <span className="text-5xl">👨‍💻</span>
+          <div className="mb-5 flex justify-center">
+            <div
+              className={`w-45 h-45 rounded-full 
+              bg-gradient-to-br from-green-400 to-blue-500 
+              flex items-center justify-center 
+              shadow-lg hover:shadow-xl 
+              hover:rotate-2 hover:scale-105 
+              transition-all duration-300 
+              ring-3  
+              overflow-hidden ${
+                darkMode ? "ring-gray-700/50" : "ring-gray-500/20"
+              }`}
+            >
+              <img
+                src="/profile.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+              />
             </div>
           </div>
 
@@ -36,7 +41,7 @@ function Hero({ darkMode, scrollTo }) {
           </h1>
 
           <h2
-            className={`text-xl md:text-2xl mb-8 font-medium ${
+            className={`text-xl md:text-2xl mb-3 font-medium ${
               darkMode ? "text-gray-300" : "text-gray-600"
             }`}
           >
