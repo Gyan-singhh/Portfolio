@@ -55,7 +55,7 @@ function Hero({ darkMode, scrollTo }) {
 
           <div className="flex gap-4 justify-center flex-wrap">
             <a
-              href="https://drive.google.com/file/d/13KRyR_Y9Lx3mDfVz2TcfCFX858IcYsRu/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tp1xEabsGrVNo3FnP6N75h1dniaKbB7k/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -5,13 +5,13 @@ function Projects({ darkMode }) {
   const projects = [
     {
       id: 1,
-      image: "auctionplace.png",
-      title: "Auction Place",
+      image: "openpost.png",
+      title: "OpenPost",
       description:
-        "An online auction platform with real-time bidding functionality and secure payments.",
-      tags: ["React", "Express", "MongoDB", "Nodemailer", "Cloudinary"],
-      codeUrl: "https://github.com/Gyan-singhh/Auctionplace-frontend",
-      liveUrl: "https://auctionplace-frontend.onrender.com/",
+        "A social blogging platform where users can post thoughts, like posts, and comment in real-time.",
+      tags: ["Next.js", "MongoDB", "Cloudinary", "React Query"],
+      codeUrl: "https://github.com/Gyan-singhh/Open-Post",
+      liveUrl: "https://open-post-five.vercel.app",
     },
     {
       id: 2,
@@ -25,6 +25,16 @@ function Projects({ darkMode }) {
     },
     {
       id: 3,
+      image: "auctionplace.png",
+      title: "Auction Place",
+      description:
+        "An online auction platform with real-time bidding functionality and secure payments.",
+      tags: ["React", "Express", "MongoDB", "Nodemailer", "Cloudinary"],
+      codeUrl: "https://github.com/Gyan-singhh/Auctionplace-frontend",
+      liveUrl: "https://auctionplace-frontend.onrender.com/",
+    },
+    {
+      id: 4,
       image: "airbnb.png",
       title: "Airbnb Clone",
       description:
@@ -34,7 +44,7 @@ function Projects({ darkMode }) {
       liveUrl: "https://www.youtube.com/watch?v=9WVms-80mws&t=30s",
     },
     {
-      id: 4,
+      id: 5,
       image: "hospital.png",
       title: "Hospital Management",
       description:
@@ -44,7 +54,7 @@ function Projects({ darkMode }) {
       liveUrl: "https://www.youtube.com/watch?v=K3_qiCsNCQA&t=158s",
     },
     {
-      id: 5,
+      id: 6,
       image: "bank.png",
       title: "Banking App",
       description:
@@ -52,16 +62,6 @@ function Projects({ darkMode }) {
       tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
       codeUrl: "https://github.com/Gyan-singhh/Banking-web-app",
       liveUrl: "https://www.youtube.com/watch?v=-oI0GaEfRDQ",
-    },
-    {
-      id: 6,
-      image: "portfolio.png",
-      title: "Personal Portfolio",
-      description:
-        "A sleek and responsive personal portfolio website showcasing projects, skills, and contact information.",
-      tags: ["React", "Tailwind CSS", "Vite", "Formspree"],
-      codeUrl: "https://github.com/Gyan-singhh/Portfolio",
-      liveUrl: "https://portfolio-gyan-singhs-projects-13f829cb.vercel.app",
     },
   ];
 

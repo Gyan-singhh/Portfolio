@@ -68,7 +68,7 @@ function About({ darkMode }, ref) {
             </div>
 
             <ul className="space-y-2">
-              {["C", "C++", "Python", "Javascript"].map((lang) => (
+              {["C", "C++", "Python", "Javascript","TypeScript"].map((lang) => (
                 <li key={lang} className="flex items-center">
                   <span
                     className={`w-2 h-2 rounded-full mr-3 ${
@@ -143,11 +143,11 @@ function About({ darkMode }, ref) {
                 </p>
               </div>
               <div
-                className={`p-3 rounded-lg ${
+                className={`sm:mt-10 p-3 rounded-lg ${
                   darkMode ? "bg-gray-700" : "bg-gray-200"
                 }`}
               >
-                <p className="font-medium text-center">CGPA: 8.3</p>
+                <p className="font-medium text-center">CGPA: 8.2</p>
               </div>
             </div>
           </div>
@@ -202,13 +202,17 @@ function About({ darkMode }, ref) {
                   desc: "Online bidding platform",
                 },
                 {
+                  name: "OpenPost",
+                  desc: "Social blogging platform",
+                },
+                {
                   name: "Hospital Management App",
                   desc: "Patient records m..",
                 },
                 {
                   name: "Airbnb Clone",
                   desc: "Property rental application",
-                },
+                },               
               ].map((project) => (
                 <li key={project.name} className="flex items-start gap-2">
                   <span

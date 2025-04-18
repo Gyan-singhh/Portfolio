@@ -14,9 +14,17 @@ function Skills({ darkMode }) {
       icon: "https://img.icons8.com/?size=100&id=108784&format=png&color=FACC15",
     },
     {
+      name: "TypeScript",
+      icon: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=3B82F6",
+    },
+    {
       name: "React",
       icon: "https://img.icons8.com/?size=100&id=123603&format=png&color=60A5FA",
     },
+    {
+      name: "Next.js",
+      icon: "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000",
+    },    
     {
       name: "Redux",
       icon: "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=D8B4FE",
@@ -96,7 +104,7 @@ function Skills({ darkMode }) {
           </p>
         </div>
 
-        <div className="md:pb-10 grid grid-cols-6 sm:grid-cols-6 md:grid-cols-9 gap-4 sm:gap-6">
+        <div className="md:pb-10 grid grid-cols-5 md:grid-cols-10 gap-4 sm:gap-6">
           {skills.map((skill) => (
             <div key={skill.name} className="flex flex-col items-center">
               <div
